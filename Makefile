@@ -4,7 +4,7 @@ CXXFLAGS = -std=c++17 -Wall
 
 all: main
 
-clean: rn main
+clean: rm main
 
 test: test.cpp
 	$(CXX) $(CXXFLAGS) test.cpp 
